@@ -101,7 +101,7 @@ header {
     font-weight: 700;
 }
 
-.pButton {
+label p {
     width: 100px;
     position: absolute;
     left: -160%;
