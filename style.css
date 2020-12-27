@@ -175,7 +175,7 @@ input:checked + .slider::before {
 }
 
 .card:hover {
-    background: var(--DesaturatedBlue);
+    background: var(--DarkGrayishBlue);
     transition: .1s ease-in-out;
     cursor: pointer;
 }
@@ -358,4 +358,46 @@ input:checked + .slider::before {
 .percentage-negative {
     color: var(--BrightRed);
     margin-left: 5px;
+}
+
+@media screen and (max-width: 812px) {
+    body {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+    }
+
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 330px;
+        height: 15vh;
+        background-color: gray;
+    }
+
+    .header-left {
+        margin-top: -20px;
+        width: 100%;
+        display: flex;
+        flex-flow: column ;
+        justify-content: center;
+    }
+
+    .header-left h1 {
+        font-size: 23px;
+    }
+
+    .header-right {
+        margin: 15% 0px 0px 15%;
+        background: yellow;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    input {
+        position: relative;
+        margin-left: 50%;
+    }
 }
