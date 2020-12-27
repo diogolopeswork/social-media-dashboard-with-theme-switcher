@@ -101,7 +101,7 @@ header {
     font-weight: 700;
 }
 
-label p {
+label h4 {
     width: 100px;
     position: absolute;
     left: -160%;
