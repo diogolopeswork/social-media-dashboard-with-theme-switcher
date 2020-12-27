@@ -496,3 +496,25 @@ input:checked + .slider::before {
     }
     
 }
+
+@media screen and (min-width: 1500px) {
+    header {
+        margin-top: 2%;
+    }
+
+    .header-left {
+        margin-left: 7.5%;
+    }
+
+    .header-right {
+        margin-right: 5%;
+    }
+
+    .second-row {
+        margin-top: 10%;
+    }
+
+    .overview-header {
+        margin-left: 5%;
+    }
+}

@@ -43,33 +43,37 @@ setTimeout(() => {
 }, 700);
 
 setTimeout(() => {
-    document.getElementById('Ocard1').style.opacity = 1;
+    document.getElementById('overview-title').style.opacity = 1;
 }, 800);
 
 setTimeout(() => {
-    document.getElementById('Ocard2').style.opacity = 1;
+    document.getElementById('Ocard1').style.opacity = 1;
 }, 900);
 
 setTimeout(() => {
-    document.getElementById('Ocard3').style.opacity = 1;
+    document.getElementById('Ocard2').style.opacity = 1;
 }, 1000);
 
 setTimeout(() => {
+    document.getElementById('Ocard3').style.opacity = 1;
+}, 1100);
+
+setTimeout(() => {
     document.getElementById('Ocard4').style.opacity = 1;
-}, 1100);
-
-setTimeout(() => {
-    document.getElementById('O2card1').style.opacity = 1;
-}, 1100);
-
-setTimeout(() => {
-    document.getElementById('O2card2').style.opacity = 1;
 }, 1200);
 
 setTimeout(() => {
-    document.getElementById('O2card3').style.opacity = 1;
+    document.getElementById('O2card1').style.opacity = 1;
 }, 1300);
 
 setTimeout(() => {
-    document.getElementById('O2card4').style.opacity = 1;
+    document.getElementById('O2card2').style.opacity = 1;
 }, 1400);
+
+setTimeout(() => {
+    document.getElementById('O2card3').style.opacity = 1;
+}, 1500);
+
+setTimeout(() => {
+    document.getElementById('O2card4').style.opacity = 1;
+}, 1600);
